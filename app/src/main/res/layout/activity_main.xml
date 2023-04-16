@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/redHawkRed"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textColor="@color/white"
+        android:layout_marginBottom="32dp"
+        android:textSize="24sp"/>
+
+    <ImageView
+        android:id="@+id/idIVLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="240dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/aerial_university_hall_small"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nav"
+        android:textColor="@color/white"
+        android:layout_margin="16dp"
+        android:textSize="24sp"/>
+
+    <Button
+        android:onClick="openGoogleMaps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/grey_500"
+        android:textSize="20sp"
+        android:text="@string/buNav"/>
+
+</LinearLayout>
